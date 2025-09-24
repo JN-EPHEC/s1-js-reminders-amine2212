@@ -15,5 +15,5 @@ const products = [
   "Headphones",
   "  smartwatch",
 ];
-
-// Your code here
+let prod = products.map (product=> product.trim().slice(0,1).toUpperCase()+ product.trim().slice(1).toLowerCase());
+console.log(prod);
