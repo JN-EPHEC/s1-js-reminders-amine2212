@@ -19,4 +19,15 @@ const albumData = {
   ],
 };
 
-// Your code here
+function formatAlbum (album, showtracks){
+ 
+ let info = `The album ${album.name} by ${album.artist}, released in ${album.releaseYear} contains ${album.tracks.length} tracks ` ;
+   if (showtracks) 
+    { info = info + "including the ShowTracks: " + album.tracks.join(",");
+      
+    }
+   return info;
+};
+let music=formatAlbum(albumData,false);
+
+console.log(music);
