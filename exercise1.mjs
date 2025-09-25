@@ -8,7 +8,6 @@
 
 // Expected result:
 // [ 'Mobile phone', 'Laptop computer', 'Headphones', 'Smartwatch' ]
-
 const products = [
   "  mobile phone ",
   " laptop computer  ",
