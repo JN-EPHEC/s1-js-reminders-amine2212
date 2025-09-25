@@ -18,7 +18,6 @@ const albumData = {
     "Beat It",
   ],
 };
-
 function formatAlbum (album, showtracks){
  
  let info = `The album ${album.name} by ${album.artist}, released in ${album.releaseYear} contains ${album.tracks.length} tracks ` ;
