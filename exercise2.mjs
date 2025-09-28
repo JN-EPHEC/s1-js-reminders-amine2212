@@ -27,6 +27,6 @@ function formatAlbum (album, showtracks){
     }
    return info;
 };
-let music=formatAlbum(albumData,true);
+let music=formatAlbum(albumData,false);
 
 console.log(music);
